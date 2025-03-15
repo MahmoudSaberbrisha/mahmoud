@@ -1,0 +1,25 @@
+/* Custom Style for Sidebar Positioning */
+#sidebar-wrapper {
+    width: 2500px; /* Set a fixed width for the sidebar */
+    transition: margin 0.3s; /* Smooth transition for opening/closing */
+}
+
+.sidebar-left {
+    margin-left: 100%; /* No margin for left sidebar */
+}
+
+.sidebar-right {
+    margin-right: 100%; /* No margin for right sidebar */
+}
+
+/* Additional styles to ensure proper display */
+body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+.sidebar-left {
+    float: left; /* Position the sidebar on the left */
+}
+
+.sidebar-right {
+    float: right; /* Position the sidebar on the right */
+}
